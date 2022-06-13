@@ -1,0 +1,76 @@
+{
+  "contacts": [
+    {
+      "name": "Budi S",
+      "number": "085261281718",
+      "gender": "Pria",
+      "id": 0
+    },
+    {
+      "name": "Husni",
+      "number": "083191020121",
+      "gender": "Pria",
+      "id": 2
+    },
+    {
+      "name": "Hanita",
+      "number": "0861718188",
+      "gender": "Wanita",
+      "id": 3
+    },
+    {
+      "name": "Kamilla B",
+      "number": "08291102910",
+      "gender": "Wanita",
+      "id": 4
+    },
+    {
+      "name": "Luna",
+      "number": "08319181910",
+      "gender": "Wanita",
+      "id": 5
+    },
+    {
+      "name": "Monica S",
+      "number": "08291192819",
+      "gender": "Wanita",
+      "id": 6
+    },
+    {
+      "name": "Ani",
+      "number": "08271271727",
+      "gender": "Wanita",
+      "id": 7
+    },
+    {
+      "name": "Udin",
+      "number": "0839181291",
+      "gender": "Pria",
+      "id": 8
+    },
+    {
+      "name": "Kiki H",
+      "number": "08172182128",
+      "gender": "Pria",
+      "id": 9
+    },
+    {
+      "name": "Nina",
+      "number": "08219281291",
+      "gender": "Wanita",
+      "id": 10
+    }
+  ],
+  "user": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 0
+    },
+    {
+      "username": "bayu",
+      "password": "12345",
+      "id": 1
+    }
+  ]
+}

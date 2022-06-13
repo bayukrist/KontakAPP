@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import CreateContact from './CreateContact';
+import Home from './Home';
+import LoginForm from './LoginForm';
+import SignUp from './SignUp';
+import { ReactSession } from 'react-client-session';
 
 function App() {
+  ReactSession.setStoreType("sessionStorage");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <BrowserRouter>
+      <div className="App">
+      <Routes>
+        <Route exact path='/' element={<Home/>}/>
+        <Route path='/create' element={<CreateContact/>}/>
+        <Route path='/edit/:id' element={<CreateContact/>}/>
+        <Route path='/login' element={<LoginForm/>} />
+        <Route path='/signup' element={<SignUp/>} />
+      </Routes>
     </div>
+    </BrowserRouter>
   );
 }
 

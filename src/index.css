@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.contact {
+  padding: 7px 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #f5f8f5;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 1px 2px 1px rgb(0 0 0 / 6%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.contact-name {
+  font-weight: bolder;
+  margin-bottom: 3px;
+}
+
+.contact-actions .btn {
+  margin-left: 5px;
+}
+
+.form-group {
+  margin: 5px;
+}
+
+.form-control {
+  display: inline;
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+}
+
+.control-label {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.btn-group .btn {
+  margin-top: 10px;
+  margin: 5px;
+}
+
+.navLink{
+  text-decoration : none;
+  color: white;
+  margin: 0.5rem;
+}
+
+.active, .navLink:hover{
+  text-decoration : none;
+  color: gainsboro;
+  margin: 0.5rem;
+}
+
+.contact-form{
+  background-color: #f5f8f5;
+  padding: 20px;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 500px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
 }
